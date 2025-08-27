@@ -13,14 +13,14 @@
 <body>
  
     <nav>
-        <div class="navbar-container flex   justify-between items-center shadow">
+        <div class="navbar-container  flex-col md:flex-row flex   justify-between items-center shadow">
        
            <div class="left-preant flex p-[10px] gap-3 ">
             <img src="./assets/logo.png" alt="" class="w-[50px]">
             <h1 class="text-[#006747] font-bold text-lg">Emergency <br> Service</h1>
           </div>
              
-        <div class="right-preant flex gap-10    ">
+        <div class="right-preant flex md:gap-10  gap-3  ">
       <!-- love-item -->
       <div class="flex w-[123px] h-[52px] justify-center p-[10px] bg-[#41ff6b1a] rounded-[50px] gap-4 font-bold">
         <p id="love-1">0</p>
@@ -28,7 +28,7 @@
       </div>
       <!-- coine-item  -->
       <div class="flex w-[123px] h-[52px] justify-center p-[10px] bg-[#41ff6b1a] rounded-[50px] gap-4 font-bold">
-        <p>100</p>
+        <p id="coine">100</p>
         <img src="assets/coin.png" alt="" class="h-[24px] w-[24px]">
       </div>
          <!-- btn -->
@@ -63,7 +63,7 @@
         <div class="card bg-base-100 w-96 shadow-sm">
                <div class="flex justify-between p-6">
                  <img src="./assets/emergency.png" alt="" class="w-[32px] h-[32px] bg-[#ffe3e2] ">
-                 <span id="heart-1"><iclass="fa-regular fa-heart w-6 h-6 "></i></span>
+                 <button id="heart-1"><i class="fa-regular fa-heart w-6 h-6"></i></button>
                </div>
           <div class="card-body">
             <h2 class="card-title font-extrabold text-[20px]">National Emergency Number </h2>
@@ -79,7 +79,7 @@
         <div class="card bg-base-100 w-96 shadow-sm">
                <div class="flex justify-between p-6">
                  <img src="./assets/police.png" alt="" class="w-[32px] h-[32px] bg-[#dfefff]">
-                 <i class="fa-regular fa-heart w-6 h-6"></i>
+                 <button id="heart-2"> <i class="fa-regular fa-heart w-6 h-6"></i></button>
                </div>
           <div class="card-body">
             <h2 class="card-title font-extrabold text-[20px]">Police Helpline Number </h2>
@@ -95,7 +95,7 @@
         <div class="card bg-base-100 w-96 shadow-sm">
                <div class="flex justify-between p-6">
                  <img src="./assets/fire-service.png" alt="" class="w-[32px] h-[32px] bg-[#ffe3e2]">
-                 <i class="fa-regular fa-heart w-6 h-6"></i>
+                <button id="heart-3"> <i class="fa-regular fa-heart w-6 h-6"></i></button>
                </div>
           <div class="card-body">
             <h2 class="card-title font-extrabold text-[20px]">Fire Service Number</h2>
@@ -113,7 +113,7 @@
         <div class="card bg-base-100 w-96 shadow-sm my-8">
                <div class="flex justify-between p-6">
                  <img src="./assets/ambulance.png" alt="" class="w-[32px] h-[32px] bg-[#ffe3e2]">
-                 <i class="fa-regular fa-heart w-6 h-6"></i>
+                <button id="heart-4"> <i class="fa-regular fa-heart w-6 h-6"></i></button>
                </div>
           <div class="card-body">
             <h2 class="card-title font-extrabold text-[20px]">Ambulance Service</h2>
@@ -129,7 +129,7 @@
         <div class="card bg-base-100 w-96 shadow-sm my-8 ">
                <div class="flex justify-between p-6">
                  <img src="./assets/emergency.png" alt="" class="w-[32px] h-[32px] bg-[#ffe3e2]">
-                 <i class="fa-regular fa-heart w-6 h-6"></i>
+               <button id="heart-5"> <i class="fa-regular fa-heart w-6 h-6"></i></button>
                </div>
           <div class="card-body">
             <h2 class="card-title font-extrabold text-[20px]">Women & Child Helpline</h2>
@@ -145,7 +145,7 @@
         <div class="card bg-base-100 w-96 shadow-sm my-8">
                <div class="flex justify-between p-6">
                  <img src="./assets/emergency.png" alt="" class="w-[32px] h-[32px] bg-[#ffe3e2]">
-                 <i class="fa-regular fa-heart w-6 h-6"></i>
+                <button id="heart-6"> <i class="fa-regular fa-heart w-6 h-6"></i></button>
                </div>
           <div class="card-body">
             <h2 class="card-title font-extrabold text-[20px]">Anti-Corruption Helpline</h2>
@@ -163,7 +163,7 @@
         <div class="card bg-base-100 w-96 shadow-sm my-8">
                <div class="flex justify-between p-6">
                  <img src="./assets/emergency.png" alt="" class="w-[32px] h-[32px] bg-[#ffe3e2]">
-                 <i class="fa-regular fa-heart w-6 h-6"></i>
+                <button id="heart-7"> <i class="fa-regular fa-heart w-6 h-6"></i></button>
                </div>
           <div class="card-body">
             <h2 class="card-title font-extrabold text-[20px]">Electricity Helpline </h2>
@@ -179,7 +179,7 @@
         <div class="card bg-base-100 w-96 shadow-sm my-8 ">
                <div class="flex justify-between p-6">
                  <img src="./assets/brac.png" alt="" class="w-[32px] h-[32px] bg-[#ffe3e2]">
-                 <i class="fa-regular fa-heart w-6 h-6"></i>
+                <button id="heart-8"> <i class="fa-regular fa-heart w-6 h-6"></i></button>
                </div>
           <div class="card-body">
             <h2 class="card-title font-extrabold text-[20px]">Brac Helpline </h2>
@@ -195,7 +195,7 @@
         <div class="card bg-base-100 w-96 shadow-sm my-8">
                <div class="flex justify-between p-6">
                  <img src="./assets/Bangladesh-Railway.png" alt="" class="w-[32px] h-[32px] bg-[#ffe3e2]">
-                 <i class="fa-regular fa-heart w-6 h-6"></i>
+                <button id="heart-9"> <i class="fa-regular fa-heart w-6 h-6"></i></button>
                </div>
           <div class="card-body">
             <h2 class="card-title font-extrabold text-[20px]">Bangladesh Railway Helpline  </h2>
@@ -224,7 +224,7 @@
        </section>
     </main>
 
-    <script src="./script.js"></script>
+   <script src="script.js"></script>
 </body>
 </html>
  
