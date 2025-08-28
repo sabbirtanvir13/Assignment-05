@@ -195,6 +195,13 @@
   });
 
    
+  // clear
+    
+  document.getElementById("myButton").addEventListener("click",function(){
+   const cartContainer = document.getElementById("cart-container");
+   cartContainer.innerHTML="";
+
   
+  })
   
   
