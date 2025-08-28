@@ -49,7 +49,7 @@
           `;
           // add to history
           cartContainer.appendChild(newcart);
-          alert(' Calling Emergency Number 999...');
+          alert(' Calling Police Number 999...');
         } else {
           alert("Low coin balance!");
         }
@@ -78,7 +78,7 @@
           `;
           // add to history
           cartContainer.appendChild(newcart);
-          alert(' Calling Emergency Number 999...');
+          alert('calling Fire Service Number 999...');
         } else {
           alert("Low coin balance!");
         }
@@ -108,7 +108,7 @@
           `;
           // add to history
           cartContainer.appendChild(newcart);
-          alert(' Calling Emergency Number 999...');
+          alert(' Calling Ambulance Number 1994-999999...');
         } else {
           alert("Low coin balance!");
         }
@@ -137,7 +137,7 @@
           `;
           // add to history
           cartContainer.appendChild(newcart);
-          alert(' Calling Emergency Number 999...');
+          alert(' Calling  Women & Child Helpline Number 109');
         } else {
           alert("Low coin balance!");
         }
@@ -166,7 +166,7 @@
           `;
           // add to history
           cartContainer.appendChild(newcart);
-          alert(' Calling Emergency Number 999...');
+           alert(' Calling  Anti-Corruption Number 106...');
         } else {
           alert("Low coin balance!");
         }
@@ -195,7 +195,7 @@
           `;
           // add to history
           cartContainer.appendChild(newcart);
-          alert(' Calling Emergency Number 999...');
+          alert(' Calling Electricity Helpline Number 16216...');
         } else {
           alert("Low coin balance!");
         }
@@ -224,7 +224,7 @@
           `;
           // add to history
           cartContainer.appendChild(newcart);
-          alert(' Calling Emergency Number 999...');
+          alert(' Calling Brac Helpline Number 16445...');
         } else {
           alert("Low coin balance!");
         }
@@ -253,7 +253,7 @@
           `;
           // add to history
           cartContainer.appendChild(newcart);
-          alert(' Calling Emergency Number 999...');
+          alert(' Calling Bangladesh Railway  Number 163...');
         } else {
           alert("Low coin balance!");
         }
