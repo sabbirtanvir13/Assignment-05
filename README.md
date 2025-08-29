@@ -13,6 +13,8 @@ const newElement = document.createElement("div");
 
 answer the question no 3. 
 When a click or other event occurs on an HTML element, that event is not limited to that element but also moves up to its parent element.
+
+
 answer the question no 4.
 After writing an event listener on a parent element and that listener handles the 
 events of its child elements. 
